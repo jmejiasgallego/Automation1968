@@ -5,7 +5,6 @@
 # See here for details: https://circleci.com/developer/orbs/licensing
 version: 2.1
 description: YAML Linter
-
 executors:
   default:
     docker:
@@ -26,4 +25,3 @@ workflows:
   yamllint-workflow:
     jobs:
       - yamllint
-      
